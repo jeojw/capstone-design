@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-capstone_project.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\GitClone\capstone-design\capstone_project\Intermediate\Build\Win64\x64\capstone_projectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"E:\GitClone\capstone-design\capstone_project\Intermediate\Build\Win64\x64\UnrealEditor\Development\capstone_project\capstone_project.init.gen.cpp.obj"
+"E:\GitClone\capstone-design\capstone_project\Intermediate\Build\Win64\x64\UnrealEditor\Development\capstone_project\WhisperFunction.gen.cpp.obj"
+"E:\GitClone\capstone-design\capstone_project\Intermediate\Build\Win64\x64\UnrealEditor\Development\capstone_project\capstone_project.cpp.obj"
+"E:\GitClone\capstone-design\capstone_project\Intermediate\Build\Win64\x64\UnrealEditor\Development\capstone_project\WhisperFunction.cpp.obj"
+"E:\GitClone\capstone-design\capstone_project\Intermediate\Build\Win64\x64\UnrealEditor\Development\capstone_project\PerModuleInline.gen.cpp.obj"
+"E:\GitClone\capstone-design\capstone_project\Intermediate\Build\Win64\x64\UnrealEditor\Development\capstone_project\Default.rc2.res"
+/OUT:"E:\GitClone\capstone-design\capstone_project\Intermediate\Build\Win64\x64\UnrealEditor\Development\capstone_project\UnrealEditor-capstone_project.lib"

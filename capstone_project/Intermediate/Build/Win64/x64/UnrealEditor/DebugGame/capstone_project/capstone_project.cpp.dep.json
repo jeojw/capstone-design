@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\gitclone\\capstone-design\\capstone_project\\source\\capstone_project\\capstone_project.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\gitclone\\capstone-design\\capstone_project\\intermediate\\build\\win64\\x64\\capstone_projecteditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "e:\\gitclone\\capstone-design\\capstone_project\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\capstone_project\\definitions.capstone_project.h",
+            "e:\\gitclone\\capstone-design\\capstone_project\\source\\capstone_project\\capstone_project.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

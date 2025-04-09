@@ -8,17 +8,17 @@ with open("test_output.log", "w", encoding="utf-8") as f:
 # FFmpeg 경로 추가
 os.environ["PATH"] += os.pathsep + os.path.abspath(os.path.dirname(__file__))
 
-print("[DEBUG] Whisper")  # ← 따옴표 닫기 문제 수정
+print("[DEBUG] Whisper")
 
 model = whisper.load_model("base")
 
-audio_path = r"E:\GitClone\capstone-design\capstone_project\Python3_9_9\Saved\maybe-next-time.wav"
+audio_path = os.path.join(os.path.dirname(__file__), "Saved", "TestWav.wav")
 
 if not os.path.exists(audio_path):
     print("[ERROR] 파일이 존재하지 않습니다:", audio_path)
     exit()
 
-result = model.transcribe(audio_path)
+result = model.transcribe(audio_path, language="ko")
 print("[RESULT]", result["text"])
 
 # 결과 저장 폴더 만들기

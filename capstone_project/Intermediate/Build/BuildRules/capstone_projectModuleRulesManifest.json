@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\GitClone\\capstone-design\\capstone_project\\Source\\capstone_project\\capstone_project.Build.cs",
+		"E:\\GitClone\\capstone-design\\capstone_project\\Source\\capstone_project.Target.cs",
+		"E:\\GitClone\\capstone-design\\capstone_project\\Source\\capstone_projectEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

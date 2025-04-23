@@ -72,3 +72,41 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# 추가 항목:
+# 로그 파일
+*.log
+
+# 백업 파일
+*.bak
+*.backup
+*.temp
+*.tmp
+Backup/*
+
+# 운영체제 관련 파일
+.DS_Store
+Thumbs.db
+
+# 언리얼 엔진 자동 생성 파일
+*.uasset.bak
+*.umap.bak
+
+# Visual Studio Code 설정
+.vscode/*
+
+# JetBrains Rider 설정
+.idea/*
+**/.idea/*
+*.iml
+
+# 로컬 히스토리
+.history/*
+
+# 캐시 파일
+*.VC.VC.opendb
+ipch/
+enc_temp_folder/
+
+# 사용자별 설정 파일 (공유하지 않아야 할 파일)
+Config/DefaultEditorPerProjectUserSettings.ini
